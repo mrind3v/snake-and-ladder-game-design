@@ -10,5 +10,8 @@ public class Ladder implements Obstacle{
         System.out.println("Lucky! Ladder will take you from " + this.bottom + " to " + this.top);
         return top;
     }
-
+    @Override
+    public int getStart() {
+        return this.bottom;
+    }
 }

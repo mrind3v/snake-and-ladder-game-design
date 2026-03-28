@@ -10,4 +10,8 @@ public class Snake implements Obstacle{
         System.out.println("Oh no! Snake will take you from " + this.head + " to " + this.tail);
         return tail;
     }
+    @Override
+    public int getStart() {
+        return this.head;
+    }
 }
