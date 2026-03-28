@@ -16,6 +16,10 @@ public class Board {
         }
     }
 
-
-
+    public int getSize() {
+        return size;
+    }
+    public Cell getCell(int position) {
+        return cells[position];
+    }
 }

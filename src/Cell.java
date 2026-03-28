@@ -1,3 +1,5 @@
+import java.util.Optional;
+
 public class Cell {
     private final int position;
     private Obstacle obstacle;
@@ -13,5 +15,7 @@ public class Cell {
         this.obstacle = obstacle;
     }
 
-
+    public Optional<Obstacle> getObstacle() {
+        return Optional.ofNullable(obstacle);
+    }
 }

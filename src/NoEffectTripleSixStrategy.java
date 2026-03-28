@@ -1,2 +1,6 @@
-public class NoEffectTripleSixStrategy implements TripeSixStrategy{
+public class NoEffectTripleSixStrategy implements TripleSixStrategy {
+    @Override
+    public void apply(Player player) {
+        return;
+    }
 }
