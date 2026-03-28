@@ -1,1 +1,1 @@
-![UML diagram](./static/snake-and-ladder-uml.png)
+![UML diagram](./static/snake-and-ladder-uml-v2.png)
